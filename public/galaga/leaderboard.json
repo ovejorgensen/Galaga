@@ -1,0 +1,42 @@
+{
+    "players": [
+        {
+            "name": "Ove",
+            "score": 30000,
+            "stage": 10
+        },
+        {
+            "name": "Knut",
+            "score": 28739,
+            "stage": 10
+        },
+        {
+            "name": "Rolf",
+            "score": 25678,
+            "stage": 8
+        },
+        {
+            "name": "Per",
+            "score": 24800,
+            "stage": 7
+        },
+        {
+            "name": "Sven",
+            "score": 19030,
+            "stage": 6
+        },
+        {
+            "name": "Bowser",
+            "score": 15654,
+            "stage": 5
+        },
+        {
+            "name": "Roger",
+            "score": 10456,
+            "stage": 3
+        }
+    ],
+    "colors": [
+        "red", "orange", "yellow", "yellow", "lightgreen","lightgreen", "lightblue", "lightblue"
+    ]
+}   

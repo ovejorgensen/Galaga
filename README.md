@@ -1,2 +1,26 @@
-# Galaga
- This project is made as part of a creative coding class, the game is made purely in p5.js and JavaScript.
+# galaga-app
+
+Game created using p5.js
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

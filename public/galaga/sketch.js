@@ -36,6 +36,15 @@ function preload() {
 
   //Loads the video
   film = createVideo("galaga/video/trailer_main.mp4");
+
+  //Load sounds
+  fire = loadSound("galaga/sounds/fire.mp3");
+  themeSong = loadSound("galaga/sounds/themesong.mp3");
+  levelStart = loadSound("galaga/sounds/levelstart.mp3");
+  enemyDead = loadSound("galaga/sounds/enemydead.mp3");
+  enemyCapture = loadSound("galaga/sounds/enemycapture.mp3");
+  hit = loadSound("galaga/sounds/hit.mp3");
+  powerSound = loadSound("galaga/sounds/powerup.mp3");
 }
 
 /* ---- GLOBAL VARIABLES ---- */
@@ -136,15 +145,6 @@ let diveCount = 3;
 const STAR_AMOUNT = 150;
 
 function setup() {
-    //Load sounds
-    fire = loadSound("galaga/sounds/fire.mp3");
-    themeSong = loadSound("galaga/sounds/themesong.mp3");
-    levelStart = loadSound("galaga/sounds/levelstart.mp3");
-    enemyDead = loadSound("galaga/sounds/enemydead.mp3");
-    enemyCapture = loadSound("galaga/sounds/enemycapture.mp3");
-    hit = loadSound("galaga/sounds/hit.mp3");
-    powerSound = loadSound("galaga/sounds/powerup.mp3");
-    
   let canvas = createCanvas(1000, 600);
   canvas.parent('galaga-div')
   textFont("galagaFont");

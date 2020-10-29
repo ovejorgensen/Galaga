@@ -14,6 +14,10 @@ export default {
 </script>
 
 <style>
+html {
+  overflow: hidden;
+  background-color: black;
+}
 #app {
   margin: 0;
   background-color: black;

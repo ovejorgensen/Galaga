@@ -13,38 +13,38 @@ let fire, themeSong, levelStart, enemyDead, enemyCapture, hit, powerSound;
 
 function preload() {
   //Load images
-  ship1 = loadImage("galaga/images/ship1.png");
-  ship2 = loadImage("galaga/images/ship2.png");
-  heart = loadImage("galaga/images/heart.png");
-  shot = loadImage("galaga/images/friendly_shot.png");
-  enemyShot = loadImage("galaga/images/shot.png");
-  startScreen = loadImage("galaga/images/start_screen.png");
-  logo = loadImage('galaga/images/logo.png');
-  powerup = loadImage('galaga/images/powerup.png');
+  ship1 = loadImage("../galaga/images/ship1.png");
+  ship2 = loadImage("../galaga/images/ship2.png");
+  heart = loadImage("../galaga/images/heart.png");
+  shot = loadImage("../galaga/images/friendly_shot.png");
+  enemyShot = loadImage("../galaga/images/shot.png");
+  startScreen = loadImage("../galaga/images/start_screen.png");
+  logo = loadImage('../galaga/images/logo.png');
+  powerup = loadImage('../galaga/images/powerup.png');
 
   //Load animations
-  bossAnimation = loadAnimation("galaga/images/boss_animation/boss00.png", "galaga/images/boss_animation/boss12.png");
-  enemyAnim = loadAnimation("galaga/images/enemy_anim/enemy00.png", "galaga/images/enemy_anim/enemy14.png");
-  enemyAnim2 = loadAnimation("galaga/images/second_anim/enemy00.png", "galaga/images/second_anim/enemy14.png");
-  enemyAnim3 = loadAnimation("galaga/images/third_anim/enemy00.png", "galaga/images/third_anim/enemy14.png");
-  explosion = loadAnimation("galaga/images/death_anim/death00.png", "galaga/images/death_anim/death03.png");
-  playerHit = loadAnimation("galaga/images/player_hit_anim/hit00.png", "galaga/images/player_hit_anim/hit03.png");
-  diverAnim = loadAnimation("galaga/images/diver_anim/diver00.png", "galaga/images/diver_anim/diver01.png");
+  bossAnimation = loadAnimation("../galaga/images/boss_animation/boss00.png", "../galaga/images/boss_animation/boss12.png");
+  enemyAnim = loadAnimation("../galaga/images/enemy_anim/enemy00.png", "../galaga/images/enemy_anim/enemy14.png");
+  enemyAnim2 = loadAnimation("../galaga/images/second_anim/enemy00.png", "../galaga/images/second_anim/enemy14.png");
+  enemyAnim3 = loadAnimation("../galaga/images/third_anim/enemy00.png", "../galaga/images/third_anim/enemy14.png");
+  explosion = loadAnimation("../galaga/images/death_anim/death00.png", "../galaga/images/death_anim/death03.png");
+  playerHit = loadAnimation("../galaga/images/player_hit_anim/hit00.png", "../galaga/images/player_hit_anim/hit03.png");
+  diverAnim = loadAnimation("../galaga/images/diver_anim/diver00.png", "../galaga/images/diver_anim/diver01.png");
 
   //Load JSON object
-  leaderboardJSON = loadJSON("galaga/leaderboard.json");
+  leaderboardJSON = loadJSON("../galaga/leaderboard.json");
 
   //Loads the video
-  film = createVideo("galaga/video/trailer_main.mp4");
+  film = createVideo("https://galaga-assets.s3-eu-west-1.amazonaws.com/trailer_main.mp4");
 
   //Load sounds
-  fire = loadSound("galaga/sounds/fire.mp3");
-  themeSong = loadSound("galaga/sounds/themesong.mp3");
-  levelStart = loadSound("galaga/sounds/levelstart.mp3");
-  enemyDead = loadSound("galaga/sounds/enemydead.mp3");
-  enemyCapture = loadSound("galaga/sounds/enemycapture.mp3");
-  hit = loadSound("galaga/sounds/hit.mp3");
-  powerSound = loadSound("galaga/sounds/powerup.mp3");
+  fire = loadSound("https://galaga-assets.s3-eu-west-1.amazonaws.com/fire.mp3");
+  themeSong = loadSound("https://galaga-assets.s3-eu-west-1.amazonaws.com/themesong.mp3");
+  levelStart = loadSound("https://galaga-assets.s3-eu-west-1.amazonaws.com/levelstart.mp3");
+  enemyDead = loadSound("https://galaga-assets.s3-eu-west-1.amazonaws.com/enemydead.mp3");
+  enemyCapture = loadSound("https://galaga-assets.s3-eu-west-1.amazonaws.com/enemycapture.mp3");
+  hit = loadSound("https://galaga-assets.s3-eu-west-1.amazonaws.com/hit.mp3");
+  powerSound = loadSound("https://galaga-assets.s3-eu-west-1.amazonaws.com/powerup.mp3");
 }
 
 /* ---- GLOBAL VARIABLES ---- */
